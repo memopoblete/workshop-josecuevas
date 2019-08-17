@@ -1,7 +1,19 @@
+:root {
+    --light-primary-color: #FFCCBC;
+    --dark-primary-color: #E64A19;
+    --primary-color: #FF5722;
+    --text-icons: #FFFFFF;
+    --accent-color: #607D8B;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: #E64A19;
-    color: #FFFFFF;
+    background: var(--light-primary-color);
+    color: var(--primary-text);
     font-family: Roboto;
+    
 }
