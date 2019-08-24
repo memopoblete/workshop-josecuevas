@@ -42,6 +42,7 @@ h1 {
 
 .header ul li {
     padding: 0px 10px;
+    font-weight: 700;
 }
 
 nav ul li {
@@ -54,13 +55,15 @@ nav ul li {
 }
 
 .hero {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 300px;
     background: var(--primary-color);
     background-image: url("../img/foto1.jpg");
     background-repeat: no-repeat;
     background-size: 500px auto;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portafolio {
