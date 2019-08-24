@@ -2,7 +2,7 @@
     --light-primary-color: #FFCCBC;
     --dark-primary-color: #D32F2F;
     --primary-color: #F44336;
-    --text-icons: #FFFFFF;
+    --text: #FFFFFF;
     --accent-color: #607D8B;
     --primary-text: #212121;
     --secondary-text: #757575;
@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     background: var(--primary-color);
-    color: var(--text-icons);
+    color: var(--text);
     font-family: var(--text-font);
 }
 
@@ -23,6 +23,21 @@ h1 {
     font-size: 40px;
     line-height: .8;
     letter-spacing: -2px;
+}
+
+.hero {
+    border: 1px solid black;
+    height: 300px;
+}
+
+header {
+    background: var(--dark-primary-color);
+    color: var(--text);
+}
+
+.header a {
+    color: var(--text);
+    text-decoration: none;
 }
 
 .project-details {
