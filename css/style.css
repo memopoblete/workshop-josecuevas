@@ -14,30 +14,44 @@
 body {
     margin: 0;
     padding: 0;
-    background: var(--primary-color);
-    color: var(--text);
+    background: var(--light-primary-color);
+    color: var(--primary-text);
     font-family: var(--text-font);
 }
 
 h1 { 
     font-size: 40px;
-    line-height: .8;
+    line-height: 1;
     letter-spacing: -2px;
+    color: var(--text);
 }
 
 .hero {
     border: 1px solid black;
     height: 300px;
+    background: var(--primary-color);
+    background-image: url("../img/foto1.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position-x: right;
+}
+
+.hero strong {
+    color: var(--divider-color);
 }
 
 header {
     background: var(--dark-primary-color);
-    color: var(--text);
+    color: var(--primary-text);
 }
 
 .header a {
     color: var(--text);
     text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
 }
 
 .project-details {
