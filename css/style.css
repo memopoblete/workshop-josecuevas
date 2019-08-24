@@ -18,3 +18,9 @@ body {
     color: var(--text-icons);
     font-family: var(--text-font);
 }
+
+h1 { 
+    font-size: 40px;
+    line-height: .8;
+    letter-spacing: -2px;
+} 
