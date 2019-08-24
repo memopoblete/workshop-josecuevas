@@ -95,14 +95,12 @@ nav ul li {
 
 .footer {
     background: #757575;
-    margin: 0px;
     display: flex;
     justify-content: space-between;
 }
 
 .footer p {
     padding: 5px 15px;
-    text-align: center;
     font-size: 16px;
     color: var(--text);
     font-weight: 700;
