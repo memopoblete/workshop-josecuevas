@@ -92,11 +92,26 @@ nav ul li {
     background: whitesmoke;
     padding: 20px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .project-details {
     /* border: 1px solid black; */
     width: 500px;
+}
+
+.project-title {
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+.project-subtitle, .project-date, .project-url {
+    margin: 10px 0;
+}
+
+.project-description { 
+    font-size: 20px;
 }
 
 .project-img-container {
