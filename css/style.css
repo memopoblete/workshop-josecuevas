@@ -186,6 +186,30 @@ nav ul li {
     display: block;
 }
 
+.contact-form-email {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    padding-left: 25px;
+    background-image: url("../img/email-84.svg");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+    margin: 10px 0;
+}
+
+.contact-form-button {
+    border: 1px solid greenyellow;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+}
+
 .social-container {
 
 }
