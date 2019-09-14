@@ -55,6 +55,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header ul {
@@ -87,6 +88,7 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-img {
@@ -109,6 +111,7 @@ nav ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .project-details {
@@ -195,6 +198,7 @@ nav ul li {
     align-items: center;
     font-weight: 800;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contact-form-label {
@@ -263,6 +267,7 @@ nav ul li {
     font-size: 16px;
     color: var(--text);
     font-weight: 700;
+    flex-wrap: wrap;
 }
 
 .footer p a {
@@ -272,30 +277,34 @@ nav ul li {
 
 /* ! RESPONSIVE DESIGN */
 
+/* *--------------------------------- */
 /* * Desktop size */
 @media screen and (max-width: 1024px) {
     body {
-        background: blue;
+        
     }
 }
 
+/* *--------------------------------- */
 /* * Tablet size */
 @media screen and (max-width: 768px) {
     body {
-        background: orange;
+        
     }
 }
 
+/* *--------------------------------- */
 /* * Phone size */
 @media screen and (max-width: 480px) {
     body {
-        background:rebeccapurple;
+        
     }
 }
 
+/* *--------------------------------- */
 /* * Small Phone size */
 @media screen and (max-width: 320px) {
     body {
-        background: yellow;
+        
     }
 }
