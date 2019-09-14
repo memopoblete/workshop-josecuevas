@@ -269,3 +269,33 @@ nav ul li {
     text-decoration: none;
     color: var(--text);
 }
+
+/* ! RESPONSIVE DESIGN */
+
+/* * Desktop size */
+@media screen and (max-width: 1024px) {
+    body {
+        background: blue;
+    }
+}
+
+/* * Tablet size */
+@media screen and (max-width: 768px) {
+    body {
+        background: orange;
+    }
+}
+
+/* * Phone size */
+@media screen and (max-width: 480px) {
+    body {
+        background:rebeccapurple;
+    }
+}
+
+/* * Small Phone size */
+@media screen and (max-width: 320px) {
+    body {
+        background: yellow;
+    }
+}
