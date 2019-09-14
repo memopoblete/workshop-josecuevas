@@ -345,8 +345,8 @@ h2 {
 /* *--------------------------------- */
 /* * Phone size */
 @media screen and (max-width: 480px) {
-    body {
-        
+    .project-details {
+        font-size: 12px;
     }
 }
 
