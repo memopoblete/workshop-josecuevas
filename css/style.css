@@ -36,6 +36,7 @@ h2 {
     max-width: 1000px;
     margin: 0 auto;
     display: inherit;
+    flex-direction: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
@@ -183,7 +184,7 @@ h2 {
 }
 
 .experience-title {
-    font-size: 1.2em{}
+    font-size: 1.2em;
 }
 
 .experience-description {
@@ -383,6 +384,23 @@ h2 {
     .experience-details {
         margin-top: -370px;
     }
+
+    .contact {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .social-link {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 /* *--------------------------------- */
@@ -391,6 +409,7 @@ h2 {
     .hero {
         padding: 40px 0;
     }
+
 
     .experience-details {
         font-size: 12px;
