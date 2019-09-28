@@ -149,6 +149,7 @@ h2 {
 .experience-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .experience {
@@ -178,10 +179,16 @@ h2 {
     padding: 30px;
     border-radius: 5px;
     text-align: center;
+    font-size: 16px;
+}
+
+.experience-title {
+    font-size: 1.2em{}
 }
 
 .experience-description {
     text-align: left;
+    font-size: 1em;
 }
 
 .experience-url {
@@ -192,6 +199,7 @@ h2 {
     padding: 5px 20px;
     border-radius: 30px;
     transition: 300ms all;
+    font-size: 1em;
 }
 
 .experience-url:hover {
@@ -363,6 +371,18 @@ h2 {
     .project-details {
         font-size: 12px;
     }
+
+    .experience {
+        width: 94%;
+    }
+
+    .experience-img {
+        width: 100%;
+    }
+
+    .experience-details {
+        margin-top: -370px;
+    }
 }
 
 /* *--------------------------------- */
@@ -370,5 +390,9 @@ h2 {
 @media screen and (max-width: 320px) {
     .hero {
         padding: 40px 0;
+    }
+
+    .experience-details {
+        font-size: 12px;
     }
 }
