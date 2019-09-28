@@ -280,7 +280,7 @@ h2 {
     justify-content: space-between;
 }
 
-.footer p {
+.footer-text {
     padding: 5px 0;
     font-size: 16px;
     color: var(--text);
@@ -400,6 +400,16 @@ h2 {
     .social-link {
         width: 30px;
         height: 30px;
+    }
+    
+    .footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-text {
+        margin: 0;
+        font-size: 8px;
     }
 }
 
