@@ -89,8 +89,8 @@ h2 {
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 5px;
-    left: 5px;
+    /* top: 5px;
+    left: 5px; */
     z-index: 69;
 }
 
@@ -359,6 +359,25 @@ h2 {
     .burger-button {
         display: flex;
     }
+
+    .menu {
+        position: fixed;
+        background: var(--dark-primary-color);
+        z-index: 68;
+        top: 0;
+        left: -100vw;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) .2s;
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
     .hero {
         font-size: 18px;
     }
@@ -375,11 +394,16 @@ h2 {
     .navbar-ul {
         display: block;
         margin: 0;
+        /* height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; */
     }
 
     .navbar-item {
         margin-top: 25px;
         text-align: center;
+        font-size: 36px;
     }
 
     .project {
